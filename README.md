@@ -1,0 +1,3 @@
+# React Native Asynchronous State Update Bug
+
+This repository demonstrates a common error in React Native applications related to asynchronous state updates within the `useEffect` hook. The bug involves using `setTimeout` or similar methods to delay state updates, which can cause rendering inconsistencies or a failure to update the UI. The solution showcases proper asynchronous state handling using `async/await` and promises.
